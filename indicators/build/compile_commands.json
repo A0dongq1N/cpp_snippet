@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/data/workspace/github/cpp_snippet/indicators/build",
+  "command": "/usr/bin/c++  -I/data/workspace/github/cpp_snippet/indicators/build/_deps/indicators-src/include -std=gnu++11 -o CMakeFiles/indicators_demo.dir/main.cpp.o -c /data/workspace/github/cpp_snippet/indicators/main.cpp",
+  "file": "/data/workspace/github/cpp_snippet/indicators/main.cpp",
+  "output": "CMakeFiles/indicators_demo.dir/main.cpp.o"
+}
+]

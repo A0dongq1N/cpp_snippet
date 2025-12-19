@@ -1,0 +1,3 @@
+/data/workspace/github/cpp_snippet/daemonize/build/CMakeFiles/daemonize_demo.dir
+/data/workspace/github/cpp_snippet/daemonize/build/CMakeFiles/edit_cache.dir
+/data/workspace/github/cpp_snippet/daemonize/build/CMakeFiles/rebuild_cache.dir

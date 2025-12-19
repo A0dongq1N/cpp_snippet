@@ -1,0 +1,3 @@
+/data/workspace/github/cpp_snippet/vector/build/CMakeFiles/vector_iterartion.dir
+/data/workspace/github/cpp_snippet/vector/build/CMakeFiles/edit_cache.dir
+/data/workspace/github/cpp_snippet/vector/build/CMakeFiles/rebuild_cache.dir

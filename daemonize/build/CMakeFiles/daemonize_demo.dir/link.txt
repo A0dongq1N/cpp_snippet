@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/daemonize_demo.dir/daemonize_demo.c.o -o daemonize_demo 

@@ -1,0 +1,5 @@
+/data/workspace/github/cpp_snippet/build/CMakeFiles/indicators_demo.dir
+/data/workspace/github/cpp_snippet/build/CMakeFiles/edit_cache.dir
+/data/workspace/github/cpp_snippet/build/CMakeFiles/rebuild_cache.dir
+/data/workspace/github/cpp_snippet/build/_deps/indicators-build/CMakeFiles/edit_cache.dir
+/data/workspace/github/cpp_snippet/build/_deps/indicators-build/CMakeFiles/rebuild_cache.dir

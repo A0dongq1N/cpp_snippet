@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/indicators_demo.dir/main.cpp.o -o indicators_demo  -lpthread 

@@ -1,0 +1,14 @@
+# Target labels
+ indicators-populate
+# Source files and their labels
+/data/workspace/github/cpp_snippet/build/_deps/indicators-subbuild/CMakeFiles/indicators-populate
+/data/workspace/github/cpp_snippet/build/_deps/indicators-subbuild/CMakeFiles/indicators-populate.rule
+/data/workspace/github/cpp_snippet/build/_deps/indicators-subbuild/CMakeFiles/indicators-populate-complete.rule
+/data/workspace/github/cpp_snippet/build/_deps/indicators-subbuild/indicators-populate-prefix/src/indicators-populate-stamp/indicators-populate-build.rule
+/data/workspace/github/cpp_snippet/build/_deps/indicators-subbuild/indicators-populate-prefix/src/indicators-populate-stamp/indicators-populate-configure.rule
+/data/workspace/github/cpp_snippet/build/_deps/indicators-subbuild/indicators-populate-prefix/src/indicators-populate-stamp/indicators-populate-download.rule
+/data/workspace/github/cpp_snippet/build/_deps/indicators-subbuild/indicators-populate-prefix/src/indicators-populate-stamp/indicators-populate-install.rule
+/data/workspace/github/cpp_snippet/build/_deps/indicators-subbuild/indicators-populate-prefix/src/indicators-populate-stamp/indicators-populate-mkdir.rule
+/data/workspace/github/cpp_snippet/build/_deps/indicators-subbuild/indicators-populate-prefix/src/indicators-populate-stamp/indicators-populate-patch.rule
+/data/workspace/github/cpp_snippet/build/_deps/indicators-subbuild/indicators-populate-prefix/src/indicators-populate-stamp/indicators-populate-test.rule
+/data/workspace/github/cpp_snippet/build/_deps/indicators-subbuild/indicators-populate-prefix/src/indicators-populate-stamp/indicators-populate-update.rule

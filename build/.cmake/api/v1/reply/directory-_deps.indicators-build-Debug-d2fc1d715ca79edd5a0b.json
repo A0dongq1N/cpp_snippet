@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/indicators-build",
+		"source" : "/data/workspace/github/cpp_snippet/build/_deps/indicators-src"
+	}
+}

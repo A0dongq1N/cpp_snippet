@@ -1,0 +1,4 @@
+/data/workspace/github/cpp_snippet/waitpid/build/CMakeFiles/waitpid_example.dir
+/data/workspace/github/cpp_snippet/waitpid/build/CMakeFiles/wuntraced_wcontinued_demo.dir
+/data/workspace/github/cpp_snippet/waitpid/build/CMakeFiles/edit_cache.dir
+/data/workspace/github/cpp_snippet/waitpid/build/CMakeFiles/rebuild_cache.dir
