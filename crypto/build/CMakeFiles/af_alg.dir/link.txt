@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/af_alg.dir/af_alg.c.o -o af_alg 
