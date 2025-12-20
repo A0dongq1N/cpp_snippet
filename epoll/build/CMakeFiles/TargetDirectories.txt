@@ -1,0 +1,3 @@
+/data/workspace/github/cpp_snippet/epoll/build/CMakeFiles/epoll_wait_deviation.dir
+/data/workspace/github/cpp_snippet/epoll/build/CMakeFiles/edit_cache.dir
+/data/workspace/github/cpp_snippet/epoll/build/CMakeFiles/rebuild_cache.dir

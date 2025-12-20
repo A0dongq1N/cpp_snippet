@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -O2 CMakeFiles/epoll_wait_deviation.dir/epoll_wait_deviation.cc.o -o epoll_wait_deviation 
