@@ -30,16 +30,17 @@ min_epoll_wait_time = 2
      }
      
      for(int i = 0; i < 2 * 60 * 60 * 1000; i += 1){
-                 timeval start;
-                 gettimeofday(&start, NULL);
-         
+        timeval start;
+        gettimeofday(&start, NULL);
+
          epoll_event events[1];
+         // 此时的等待时间为max(min_epoll_wait_time, 1),内核参数优先
          if(epoll_wait(ep, events, 1, 1) == -1){
              printf("wait epoll error!\n"); exit(-1);
          }
          
-                 timeval end;
-                 gettimeofday(&end, NULL);
+        timeval end;
+        gettimeofday(&end, NULL);
          printf("begin=%llu, end=%llu, epoll wait =%llu (us)\n", start.tv_usec, end.tv_usec, end.tv_usec - start.tv_usec);
      }
      
