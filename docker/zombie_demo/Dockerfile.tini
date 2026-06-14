@@ -1,0 +1,25 @@
+FROM ubuntu:22.04
+
+RUN apt-get update && apt-get install -y \
+    gcc \
+    tini \
+    procps \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY zombie_factory.c start.sh monitor.sh ./
+RUN gcc -Wall -o zombie_factory zombie_factory.c \
+ && chmod +x start.sh monitor.sh
+
+# Scene 2: tini 作为 PID 1
+#
+# 进程树：
+#   tini (PID 1)
+#     └─ start.sh → exec monitor.sh
+#          └─ zombie_factory (后台)
+#               ├─ child-1..8 (立即退出)
+#
+# zombie_factory 退出后，child-1..8 变成孤儿 → PPID 变为 tini(PID 1)
+# tini 内部循环 waitpid(-1) → 立即收割 → zombie count = 0
+ENTRYPOINT ["/usr/bin/tini", "--"]
+CMD ["/bin/bash", "/app/start.sh"]
